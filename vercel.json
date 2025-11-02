@@ -16,6 +16,10 @@
       "dest": "/api/ngl.py"
     },
     {
+      "src": "/keepalive",
+      "dest": "/api/keepalive.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "/public/$1"
     }
